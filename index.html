@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Grand Royal Burger</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+</head>
+<body onload="render(),renderBasket()">
+
+<div class="header">
+
+    <div class="header-left">
+        <img src="img/delivery-food-64.png" alt="">
+        <h1>Grand Royal Burger</h1>
+    </div>
+    
+    <div class="adress">Mercedes-Benz Straße 99, Stuttgart 70173</div>
+    
+    <div class="header-right">
+        <img class="icon radius"src="img/german.png" alt="">
+        <img class="icon" src="img/3-Bars.png" alt="">
+    </div>
+</div>
+
+
+<div class="mainSection">
+        
+    <div class="main-left">
+        <img class="main-left-image" src="img/header-food-logo.jpg">
+        <div class="royal-logo">
+            <img class ="logo" src="img/GrandRoyalLogo.png" alt="">
+        </div>
+        
+         
+        <div class="main-left-second">
+            <div class="headline">
+                <h2>Grand Royal Burger</h2>
+                
+            <div class="headline-icons hide-mobile"> 
+                <img src="img/i.png" alt="">
+                <img src="img/heart.png" alt="">
+            </div>  
+
+            </div>
+            <div class="ratingstars">
+                <img class="stars-image" src="img/rating_stars.png" alt="">
+                <span>(1337 Bewertungen)</span>
+            </div>
+        </div>
+
+        <div class="delivery-icons">
+            <div>
+                <img src="img/time-13-24_1.png">
+                <span>09:30</span>
+            </div>
+
+            <div>
+                <img src="img/bicycle-2-24_1.png">
+                <span>3,00€</span>
+            </div>
+
+            <div>
+                <img src="img/shopping-bag-2-24_2.png">
+                <span>14,99€</span>
+            </div>
+        </div>
+
+        <div class="menu hide-mobile"> 
+            <a href="#"><img src="img/zoom.png"></a>
+            <a href="">Burger</a>
+            <a href="">Pommes Frites</a>
+            <a href="">Fingerfood</a>
+            <a href="">Dips & Saucen</a>
+            <a href="">Salate</a>
+            <a href="">Getränke</a>
+        </div>
+
+
+      
+        <div class="dynamic-meal" id="mealcard"></div>   
+       
+    </div>
+
+
+    <div class="main-right d-none" id="main-right">
+
+        <div id="basket-card">
+            <div class="headline-basket">Warenkorb</div>
+        </div>
+             
+    <div class="scroll-container">
+        <div id="basket"></div>
+    </div>
+
+    </div>
+         
+
+</div>  
+<footer class="footer">
+    <a href="">AGB</a>
+    <a href="">Datenschutzerklärung</a>
+    <a href="">Impressum</a>
+    <a href="">© 2022 Grand Royal Burger</a>
+</footer> 
+
+
+
+
+
+</body>
+</html>
